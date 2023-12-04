@@ -1,0 +1,54 @@
+/* Estilos para la sección de registro de usuario */
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.user-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+    /* Ajusta el ancho del contenido según sea necesario */
+    margin: 10px;
+    /* Ajusta el margen entre los elementos según sea necesario */
+}
+
+.user h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-content label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user-content input,
+.user-content select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.user-content button {
+    background: #e94560;
+    padding: 13px 40px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.user-content button:hover {
+    background: #d0334a;
+}

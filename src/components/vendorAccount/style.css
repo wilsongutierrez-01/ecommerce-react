@@ -1,0 +1,92 @@
+/* VendorAccount.css */
+
+.vendor-account {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-form {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-list .delete-button,
+.product-list .update-button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.product-list .delete-button {
+    background-color: #e74c3c; /* Color rojo para Delete */
+    color: #fff;
+}
+
+.product-list .update-button {
+    background-color: #3498db; /* Color azul para Update */
+    color: #fff;
+}
+
+.product-item .delete-button:hover,
+.product-item .update-button:hover {
+    background-color: #333;
+}
+
+.product-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.product-form input,
+.product-form textarea,
+.product-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.product-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-form button:hover {
+    background-color: #45a049;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
